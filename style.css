@@ -9,7 +9,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-    font-size: 5rem;
+    font-size: 6rem;
+    color: #fff;
 }
 
 img {
@@ -17,7 +18,7 @@ img {
 }
 
 .countdown-timer {
-    background-image: url(/images/vacation.avif);
+    background-image: url(images/vacation.avif);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
