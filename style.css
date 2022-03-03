@@ -12,7 +12,14 @@ h2 {
     font-size: 5rem;
 }
 
+img {
+    background-size: cover;
+}
+
 .countdown-timer {
+    background-image: url(/images/vacation.avif);
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     display: flex;
     align-items: center;
