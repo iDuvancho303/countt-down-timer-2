@@ -10,6 +10,7 @@ font-family: 'Roboto', sans-serif;
 
 h2 {
     font-size: 6rem;
+    padding: 2rem;
 }
 
 img {
@@ -31,4 +32,9 @@ img {
 .countdown {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+
+.day, .hour, .minutes, .seconds {
+    font-size: 2.5rem;
 }
