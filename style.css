@@ -9,8 +9,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 4rem;
     padding: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 img {
@@ -37,4 +39,21 @@ img {
 
 .day, .hour, .minutes, .seconds {
     font-size: 2.5rem;
+}
+
+.countdown h3 {
+    padding: 15px;
+    background-color: #fff;
+    font-size: 3rem;
+    color: black;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.countdown p {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
 }
