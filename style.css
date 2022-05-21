@@ -57,3 +57,42 @@ img {
     margin-top: 10px;
     font-weight: bold;
 }
+
+/*MEDIA QUERY*/
+
+@media only screen and (max-width: 500px) {
+
+    h2 {
+        font-size: 25px; /* */
+        padding: 0 0rem; /* */
+        letter-spacing: 3px; /* */
+        margin-bottom: 1rem; /* */    
+    }
+
+    .countdown {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .day, .hour, .minutes, .seconds {
+        font-size: 2.5rem;
+    }
+    
+    .countdown h3 {
+        padding: 5px; /* */
+        font-size: 2.5rem; /* */
+        opacity: 1; /* */
+    }
+    
+    .countdown p {
+        letter-spacing: 3px; /* */
+    }
+
+    
+
+
+
+
+
+}
